@@ -1,0 +1,20 @@
+{
+  "name": "ecter/mage-micro",
+  "type": "magento-module",
+  "description": "Small, experimental optimizations of Magento 1.9.x",
+  "homepage": "https://github.com/ecter/mage-micro",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "ecter"
+    }
+  ],
+  "extra": {
+    "map": [
+      ["app/code/community/Ecter/Micro", "app/code/community/Ecter/Micro"],
+      ["app/etc/modules/Ecter_Micro.xml", "app/etc/modules/Ecter_Micro.xml"]
+    ]
+  }
+}

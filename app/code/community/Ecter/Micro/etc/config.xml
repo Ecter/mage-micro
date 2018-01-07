@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ecter_Micro>
+            <version>0.1</version>
+        </Ecter_Micro>
+    </modules>
+    <global>
+        <models>
+            <etcmicro>
+                <class>Ecter_Micro_Model</class>
+            </etcmicro>
+            <catalog>
+                <rewrite>
+                    <product_image>Ecter_Micro_Model_Mage_Catalog_Product_Image</product_image>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>
